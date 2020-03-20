@@ -1,0 +1,145 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 7%;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: ubuntu;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  margin: 7% 15%;
+  padding-top: 15%;
+  background-color: #fff;
+  position: relative;
+  bottom: 80px;
+  z-index: 1;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box{
+  padding: 4.5%;
+}
+
+.icon{
+  font-size: 50px;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  background-color:#ef8172;
+  color: white;
+
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+#cta{
+  background-color:#ff4c68;
+  padding: 10%;
+  font-weight: 900;
+}
+.Find{
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Montserrat";
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+
+}
+ .bottom-download{
+   margin:  10px 20px;
+ }
+ .footer-icons{
+   padding: 100px 5px 50px 5px;
+ }
